@@ -1,0 +1,319 @@
+﻿/* CSS Document */
+
+*{
+margin:0px;
+padding:0px;
+}
+body
+{
+	background:#ffffff;	
+	color:#29371d;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:14px;
+	display:block;
+	position:relative;
+	width:100%;
+}
+#content
+{
+	width:90%;
+	margin:0px auto;
+	height:800px;
+	background-color:#006600;
+	margin-left:40px;
+	margin-right:40px;
+}
+
+#header
+{
+	width:100%;
+	margin:0px auto;	
+	height: 110px;
+	background-repeat: no-repeat;
+  
+}
+.banner_left
+{
+	background-image:url('../image/banner.jpg');
+	background-repeat:no-repeat;
+}
+#DivHead
+{
+	width:90%;
+	margin:0px auto;	
+	height:30px;
+}
+
+#MainHeader
+{
+	width:90%;
+	margin:0px auto;	
+	height: 100px;
+
+}
+#divPanal
+{
+	width:90%;
+	margin:0px auto;	
+	height:30px;
+}
+
+#DLProduct
+{
+	width:90%;
+	margin:0px auto;
+	}
+
+
+#logo
+{
+	width:31%;
+	margin:0px auto;
+	background-color:#666666;
+	height:75px;
+	background:background-image;
+	background-image:url(../image/hed_bg.jpg);
+	float:left;
+}
+#logo ul
+{
+	float:left;
+	margin:0px auto;
+	height:75px;
+	background:background-image;
+	background-image:url(../images/logo.png);
+	width:100%;
+}
+
+#menu
+{
+	
+	margin:0px auto;
+	width:90%;	
+	background-color:#ffffff;
+	height:43px;		
+	background:background-image;
+	background-image:url(../images/menu_bg.jpg);
+}
+#menu ul
+{
+	width:20%;
+	float:left;
+	margin:0px auto;
+	background-color:#666666;
+	height:90px;
+	background:background-image;
+	background-image:url(../images/menu_bg.jpg);
+}
+#menu ul:hover 
+{
+	width:20%;
+	margin:0px auto;
+	background-color:#666666;
+	height:90px;
+	background:background-image;
+	background-image:url(../images/menu_bg_efect.jpg);
+}
+
+#slider
+{
+	width:90%;
+	margin:0px auto;
+	background-color:#66dddd;
+	height:435px;
+}
+#menu2
+{
+	width:100%;
+	margin:0px auto;
+	background-color:#666666;
+	height:50px;
+}
+#body_layout
+{
+	width:100%;
+	margin:0px auto;
+	height:400px;
+	background-color:#666600;
+}
+#img1
+{
+	width:23%;
+	float:left;
+	margin:0px auto;
+	padding:10px;
+	height:160px;
+	background-color:#666600;
+	border:0px solid red;
+}
+#img2
+{
+	width:22%;
+	float:left;
+	margin:0px auto;
+	padding:10px;
+	height:160px;
+	background-color:#666600;
+	border:0px solid red;
+}
+#img3
+{
+	width:23%;
+	float:right;
+	margin:0px auto;
+	padding:10px;
+	height:160px;
+	background-color:#666600;
+	border:0px solid green;
+}
+#img4
+{
+	width:23%;
+	float:right;
+	margin:0px auto;
+	padding:10px;
+	height:160px;
+	background-color:#666600;
+	border:0px solid blue;
+}
+
+#left_menu
+{
+	width:10%;
+	margin:0px auto;
+	background-color:#dddddd;
+	height:400px;
+	float:left;
+}
+#right_menu
+{
+	width:10%;
+	margin:0px auto;
+	background-color:#dddddd;
+	height:400px;
+	float:right;
+}
+#footer
+{
+	width:100%;
+	margin:0px auto;
+	background-color:#660000;
+	height:30px;
+	float:left;
+}
+
+
+.MenuItem
+{
+	background-color:#FFFFFF;
+	color:#FFA000;
+	font-family:Candara;
+	font-size:10pt;
+	font-weight:bold;
+	text-align:center;
+	width:130px;
+	border:solid;
+	border-color:#FFA000;
+	border-width:1px;
+	padding:2px;
+	height:40px;
+}
+
+.DynamicMenuItem
+{
+	background-color:#FFFFFF;
+	color:#FFA000;
+	font-family:Candara;
+	font-size:10pt;
+	font-weight:bold;
+	text-align:center;
+	width:130px;
+	border:solid;
+	border-color:#FFA000;
+	border-width:1px;
+	padding:2px;
+	height:40px;
+}
+
+.MenuItemSelected
+{
+	background-color:#FFFFA0;
+	text-align:center;
+	border:solid;
+	border-color:#FFA000;
+	border-width:1px;
+	padding:2px;
+	height:40px;
+}
+
+.MenuItemHover
+{
+	background-color:#FFA000;
+	color:White;
+	font-family:Candara;
+	font-size:10pt;
+	font-weight:bold;
+	width:130px;
+	text-align:center;
+	border:solid;
+	border-color:#FFFFFF;
+	border-width:1px;
+	padding:2px;
+	height:40px;
+}
+.Popup
+{
+   
+    top: 5%;
+    right:5%;
+}
+
+.menu-bg-color {
+    background: linear-gradient(to bottom, #092a5f 0%, #084787 45%, #092a5f 100%) repeat scroll 0 0 rgba(0, 0, 0, 0);
+}
+.title
+{
+    display: block;
+    float: left;
+    text-align: left;
+    width: auto;
+}
+.page
+{
+    width: 990px;
+    height:100%;
+    background-color: #fff;
+    margin: 20px auto 0px auto;
+    border: 1px solid #496077;
+}
+
+.input_text_box
+{
+border:1px solid Olive;
+background-color:White;
+font-size: 12px;
+margin-left: 0px;
+}
+.input_text_box_number
+{
+text-align:right;
+}
+
+
+.input_button
+{
+border: 1px solid Olive;
+	background-image :url('images/button_bg.gif');
+	background-repeat:repeat;
+	height: 22px;
+}
+
+
+.input_combo
+{
+border:1px solid Olive;
+background-color:White;
+font-size: 12px;
+margin-left: 0px;
+    height: 19px;
+}

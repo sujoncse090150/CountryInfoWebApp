@@ -1,0 +1,74 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="MasterPage.master.cs" Inherits="CountryInfoWebApp.MasterPage" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+    <link href="CSS/Layout.css" rel="stylesheet" />
+    <style type="text/css">
+        .auto-style1 {
+            width: 111%;
+        }
+    </style>
+</head>
+<body style="margin-top: 0px; margin-left: 0px; margin-right: 0px;">
+    <form id="form1" runat="server">
+    <div class="page" style="height: auto;" align="left">
+        <div style="background-image: url('/Image/Banner.jpg'); height: 100px;">
+
+        </div>
+    <div style="width: 100%;" align="center">
+            <table style="width: 100%;" align="center">
+                <tr>
+                    <td class="menu-bg-color" width="100%" height="56" align="center">
+                        <asp:Menu ID="Menu1" runat="server" Orientation="Horizontal" Font-Names="Arial" ForeColor="#000000"
+                            StaticSubMenuIndent="10px" Font-Size="Large">
+                            <StaticMenuItemStyle HorizontalPadding="20px" VerticalPadding="2px" />
+                            <StaticHoverStyle BackColor="#084787" />
+                            <DynamicHoverStyle BackColor="#084787" ForeColor="White" />
+                            <DynamicMenuStyle BackColor="#084787" />
+                            <StaticSelectedStyle BackColor="#084787" />
+                            <DynamicSelectedStyle BackColor="#084787" />
+                            <DynamicMenuItemStyle HorizontalPadding="10px" VerticalPadding="2px" />
+                            <StaticHoverStyle BackColor="#084787" ForeColor="White" />
+                            <Items>
+                                <asp:MenuItem></asp:MenuItem>
+                                <asp:MenuItem Text="Home" Value="Home" NavigateUrl="~/UI/Home.aspx"></asp:MenuItem>
+                                <asp:MenuItem Text="Information Entry" Value="InformationEntry" NavigateUrl="~/View/Customers.aspx?mnuID=7">
+                                    <asp:MenuItem NavigateUrl="~/UI/CountryEntry.aspx" Text="Country Entry"
+                                        Value="Country Entry"></asp:MenuItem>
+                                    <asp:MenuItem Text="City Entry" Value="City Entry" NavigateUrl="~/UI/CityEntry.aspx">
+                                    </asp:MenuItem>
+                                </asp:MenuItem>
+                                <asp:MenuItem Text="Search Information" Value="Gallary" NavigateUrl="~/View/Gallery.aspx?mnuID=8">
+                                    <asp:MenuItem Text="Country Search" Value="Country Search" NavigateUrl="~/UI/SearchCountry.aspx"></asp:MenuItem>
+                                    <asp:MenuItem Text="City Search" Value="City Search" NavigateUrl="~/UI/CitySearch.aspx"></asp:MenuItem>
+                                </asp:MenuItem>                                
+                                <asp:MenuItem Text="Contact" Value="Contact" NavigateUrl="~/UI/Contract.aspx">
+                                                                </asp:MenuItem>
+                            </Items>
+                        </asp:Menu>
+                    </td>
+                </tr>
+            </table>
+        </div>
+        <div>
+            <table>
+                <tr>
+                    <td width="990px" align="left" valign="top" >
+                        <asp:ContentPlaceHolder ID="cph" runat="server">
+                        </asp:ContentPlaceHolder>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        
+                    </td>
+                </tr>
+            </table>
+        </div>
+    </div>
+
+    </form>
+</body>
+</html>
